@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gaegu">
+    <link rel="stylesheet" href="quiz.css">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="container">
+          <center><h1>Quiz Game</h1></center>
+      <div class="register">
+        <div class="player1">
+          <h3>Player 1</h3>
+          <form>
+            <input type="text" id= "firstName"placeholder="First Name"><br>
+            <input type="text" id="lastName" placeholder="Last Name">
+          </form>
+        </div>
+        <div class="player2">
+          <h3>Player 2</h3>
+          <form>
+            <input type="text" id= "firstName"placeholder="First Name"><br>
+            <input type="text" id="lastName" placeholder="Last Name">
+          </form>
+        </div>
+          <button type="button"id="start" onclick="startGame()">Start Game</button>
+      </div>
+
+      <div class="quiz">
+        <h1> The Quiz</h1>
+        <div class="question"></div>
+
+      </div>
+
+
+    </div>
+
+  </body>
+  <script src="quiz.js">
+
+  </script>
+</html>

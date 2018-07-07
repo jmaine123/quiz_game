@@ -1,0 +1,57 @@
+html{
+  background-color: #37adf2;
+  font-family: Gaegu;
+}
+
+h3{
+  padding: 0px 10%;
+}
+
+form{
+  margin: 0 auto;
+  padding: 0px 10%;
+}
+
+.quiz{
+  display: none;
+}
+.container{
+  max-width: 100%;
+  display: block;
+  font-size: 30px;
+  height: 800px;
+}
+
+.register{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 35% 35%;
+  grid-template-rows: auto;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  margin-left: 15%;
+  grid-gap: 10%;
+}
+
+.register div{
+  background-color: #373af1;
+  color: white;
+  border: 2px solid white;
+  height:200px;
+}
+
+#start{
+  width:100px;
+  height: 100px;
+  background-color: #38c635;
+  color: white;
+  border: 1px solid white;
+  font-size: 30px;
+  text-align: center;
+  font-family: Gaegu;
+  margin: 10% 80%;
+}
+
+#start:hover{
+  background-color: #28e224;
+}
