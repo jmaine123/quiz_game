@@ -85,14 +85,13 @@ form{
 
 #contestants{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 40% 40%;
   grid-template-rows: 500px;
-  grid-gap: 10px;
+  grid-gap: 40%;
   margin-top: 5%;
 }
 
 #contestants div{
-  background-color: red;
   width:70%;
   padding: 0% 2%;
 }
@@ -104,4 +103,21 @@ form{
   border: 2px solid darkBlue;
   width: 80%;
   margin: 0% 10%;
+}
+
+.potentials1 li{
+  font-size: 30px;
+  background-color: darkBlue;
+  border: 1px solid white;
+  padding: 0% 10%;
+  color: white;
+}
+
+.potentials1{
+  list-style-type: none;
+}
+
+.potentials1 li:hover{
+  background-color: lightBlue;
+  color: darkBlue;
 }
